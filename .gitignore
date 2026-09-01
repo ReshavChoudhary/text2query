@@ -1,0 +1,17 @@
+# Secrets -- never commit your real API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Large generated file from running evaluate.py -- not needed to review the code
+eval_results.json
